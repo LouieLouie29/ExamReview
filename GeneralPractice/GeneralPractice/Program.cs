@@ -151,8 +151,8 @@ namespace GeneralPractice
                 totalSaved += totalSaved * percent;
             }
 
-
-            Console.WriteLine(totalSaved);
+            totalSaved = totalSaved + percent;
+            //Console.WriteLine($"You will have saved {totalSaved} after);
 
             Console.ReadKey();
             
