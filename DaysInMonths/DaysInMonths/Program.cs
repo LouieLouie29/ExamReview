@@ -18,7 +18,7 @@ namespace DaysInMonthReview
             }
             else if (month == "FEBRUARY")
             {
-                Console.WriteLine("Is this a leap year?");
+                Console.WriteLine("Is this a leap year? (Yes or No)");
                 string leap = Console.ReadLine();
                 string newLeap = leap.ToUpper()[0].ToString();
 
@@ -71,6 +71,7 @@ namespace DaysInMonthReview
             {
                 Console.WriteLine("There are 31 days in December.");
             }
+            Console.WriteLine("Press any key to exit application.");
             Console.ReadKey();
         }
     }
