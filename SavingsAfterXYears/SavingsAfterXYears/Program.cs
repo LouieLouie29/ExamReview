@@ -17,17 +17,17 @@ namespace SavingsAfterXYears
             Console.WriteLine("How much money do you want to save each week?");
             savings = Convert.ToDouble(Console.ReadLine());            
 
-            Console.WriteLine(savings); //Testing Purposes
+            //Console.WriteLine(savings); //Testing Purposes
 
             Console.WriteLine("What is your current interest rate? (Put whole percent e.g. 5% as 5)");
             interest = Convert.ToDouble(Console.ReadLine()) / 100;            
             
-            Console.WriteLine(interest); //Testing Purposes
+           // Console.WriteLine(interest); //Testing Purposes
 
             Console.WriteLine("How many years would you like to save?");
             years = Convert.ToInt32(Console.ReadLine());            
 
-            Console.WriteLine(years); //Testing Purposes
+            //Console.WriteLine(years); //Testing Purposes
 
             for (int month = 1; month <= years * 12; month++) //12 months in every year
             {
